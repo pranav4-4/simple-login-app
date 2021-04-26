@@ -91,6 +91,7 @@ class LoginPageState extends State<LoginPage>with SingleTickerProviderStateMixin
                         decoration: new InputDecoration(
                           labelText: "Enter Password",
                         ),
+                        obscureText: true,
                         keyboardType: TextInputType.text ,
                       ),
                       new Padding(
